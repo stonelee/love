@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffe;
+  font-size: 12px;
+}
+
+#main {
+  position: relative;
+  width: 670px;
+  height: 625px;
+  margin: 0 auto;
+}
+
+#heart {
+}
+
+#words {
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  font-size: 22px;
+  color: #666;
+}
+
+#to, #content, #clock, #end, #from, #love {
+  display: none;
+}
+#to {
+  font-size: 26px;
+}
+#end {
+  margin-top: 110px;
+  margin-right: 150px;
+  text-align: right;
+  font-size: 26px;
+}
+#from {
+  margin-right: 230px;
+  text-align: right;
+  font-size: 26px;
+}
+#love {
+  position: absolute;
+  top: 180px;
+  left: 180px;
+}
+
+.digit{
+  font-family: "digit";
+  font-size: 36px;
+}
+
+/*@-webkit-keyframes downloadButton {*/
+  /*from { box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25), 0 2px 10px rgba(0,68,204,.5); }*/
+  /*50% {  box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25), 0 2px 25px rgba(0,68,204,.9); }*/
+  /*to {   box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25), 0 2px 10px rgba(0,68,204,.5); }*/
+/*}*/
+/*@-moz-keyframes downloadButton {*/
+  /*from { box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25), 0 2px 10px rgba(0,68,204,.5); }*/
+  /*50% {  box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25), 0 2px 25px rgba(0,68,204,.9); }*/
+  /*to {   box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25), 0 2px 10px rgba(0,68,204,.5); }*/
+/*}*/
+@-webkit-keyframes downloadButton {
+  from { box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25), 0 2px 10px rgba(255,0,0,.5); }
+  50% {  box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25), 0 2px 25px rgba(255,0,0,.9); }
+  to {   box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25), 0 2px 10px rgba(255,0,0,.5); }
+}
+@-moz-keyframes downloadButton {
+  from { box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25), 0 2px 10px rgba(255,0,0,.5); }
+  50% {  box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25), 0 2px 25px rgba(255,0,0,.9); }
+  to {   box-shadow: inset 0 1px 0 rgba(255,255,255,.1), 0 1px 5px rgba(0,0,0,.25), 0 2px 10px rgba(255,0,0,.5); }
+}
+.blink {
+  -webkit-animation-name: downloadButton;
+     -moz-animation-name: downloadButton;
+  -webkit-animation-duration: 1.5s;
+     -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+}
